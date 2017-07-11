@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_html_head_alter().
+ *
+ * puts '<script src="https://widget.battleforthenet.com/widget.js" async></script>'
+ * in the <head> and allows for customization via battleforthenet_widget.js
+ */
+function battleforthenet_widget_html_head_alter(&$head_elements) {
+  $head_elements['#attached']['js'] = array(
+    drupal_get_path('module', 'battleforthenet_widget') . '/battleforthenet_widget.js',
+    'https://widget.battleforthenet.com/widget.js' => array(
+      'type' => 'external',
+    ),
+  );
+}
