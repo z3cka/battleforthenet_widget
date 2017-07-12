@@ -54,5 +54,5 @@ var _bftn_options = {
     /*
      * Always show the widget. Useful for testing.
      */
-    always_show_widget: true // @type {Boolean}
+    always_show_widget: false // @type {Boolean}
   };
