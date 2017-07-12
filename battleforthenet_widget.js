@@ -10,10 +10,10 @@ var _bftn_options = {
      * Unspecified options will fall back to the default values.
      */
     theme: {
-      className: 'money', // @type {string} will be applied to iframe body tag
-      logos: ['images/money.png', 'images/stop.png'], // @type {Array} img src values
-      headline: 'Your headline here.', // @type {string} modal headline text
-      body: 'Your body here.' // @type {string} modal body text
+//      className: 'money', // @type {string} will be applied to iframe body tag
+//      logos: ['images/money.png', 'images/stop.png'], // @type {Array} img src values
+//      headline: 'Your headline here.', // @type {string} modal headline text
+      body: 'An open Internet and net neutrality are critical to higher education and the our mission to support teaching and research.  The UCLA Library recognizes the importance of a free and open internet and are taking advantage of this Day of Action to Save Net Neutrality to educate our community about this important issue.  The current head of the FCC is proposing to change the rules that govern how online traffic flows to privilege commercial communication on the Internet.  We’d like to make the UCLA Community aware of the issue and hopefully become more informed about the importance of unfettered access to information.  For more information of these important policy issues see this link: http://policynotes.arl.org/?p=1569' // @type {string} modal body text
     },
     
     /*
